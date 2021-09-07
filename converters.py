@@ -54,3 +54,5 @@ def convert_gender_to_database(gender: int):
 def convert_comment_to_database(comment: str) -> str:
     comment = translator(comment)
     return comment
+
+
